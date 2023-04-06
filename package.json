@@ -2,16 +2,13 @@
   "name": "doc-2023",
   "version": "0.0.1",
   "description": "我的个人文档",
-  "scripts": {
-    "start": "npm run dev",
-    "dev": "dumi dev",
-    "build": "dumi build",
-    "prepare": "husky install && dumi setup"
-  },
-  "authors": [
-    "2185698249@qq.com"
-  ],
   "license": "MIT",
+  "scripts": {
+    "build": "dumi build",
+    "dev": "dumi dev",
+    "prepare": "husky install && dumi setup",
+    "start": "npm run dev"
+  },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
@@ -22,6 +19,7 @@
       "prettier --write --no-error-on-unmatched-pattern"
     ]
   },
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
@@ -29,5 +27,8 @@
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
-  }
+  },
+  "authors": [
+    "2185698249@qq.com"
+  ]
 }
